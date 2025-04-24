@@ -1,0 +1,16 @@
+1. Consider a hash table with size = 10. Using linear probing, insert the keys 27, 72, 63, 42, 36, 18, 29, and 101 into the table
+
+2. Supposed we want to store 8 different key: 15, 20, 72, 13, 16, 81, 30, 45 into a hash table size 10.
+The hash function we will use division function: h(z) = key % M. M stands for the table size.
+Using Quadratic probing if the is any collision. the equation is h(z) = (key+i^2) % M. i is the increment step.
+
+3. Consider a hash table with size = 11. Using double hashing, insert the keys 27, 72, 63, 42, 36, 18, 29, and 101 into the table. Take h1 = k mod 11 and h2 = k mod 9
+h(k, i) = [h1(k) + i h2(k)] mod m
+
+h1(k) = k mod m
+h2(k) = k mod m’
+
+i is the increment number that varies from 0 to m-1
+m’ is m-2
+
+

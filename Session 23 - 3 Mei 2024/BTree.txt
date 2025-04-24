@@ -1,0 +1,9 @@
+B-Tree
+Session 23 - 2 Mei 2024
+
+-Biasanya dipake untuk kamus
+-Setiap node punya maximum m anak
+-Setiap node kecuali root punya mininum m/2 anak
+-Semua leaf punya level yang sama
+-Kalau parent punya 2 children maka datanya 1
+-Kalau parent punya 3 children maka datanya 2

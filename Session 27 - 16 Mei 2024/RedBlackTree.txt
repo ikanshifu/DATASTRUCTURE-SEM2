@@ -1,0 +1,18 @@
+Session 27 - 16 Mei 2024
+
+Red Black Tree
+-Specialized BST that is balanced
+-Memiliki warna di dalam nodenya yaitu merah dan hitam
+-Root selalu hitam
+-Jika sebuah node merah maka anak2nya hitam
+-Jumlah black node untuk setiap path sama
+-Setiap node yang diinsert pasti merah
+-Merah engga boleh ketemu merah
+-External atau node NULL warnanya black
+
+a.Insertion:
+-Root Hitam
+-Insert pasti merah
+-Kalau anak violation tapi sibling parent sama-sama merah, tinggal ganti warna parent dan siblingnya ke hitam, lalu grandparent ke merah
+-Kalau anak violatoin tapi parent engga ada sibling atau siblingnya black(null node), tinggal rotation aja
+b.

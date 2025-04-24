@@ -1,0 +1,12 @@
+1. Create a Red Black tree using the following sequence of data:
+65, 77, 70, 82, 91, 75, 96, 72, 80
+then delete nodes: 65, 77, 70, 82, 75, 72
+
+2. Consider Red Black tree given below and delete nodes 23, 40, and 33 from the Red Black tree formed after solving the above question.
+		    43
+	--------------------------
+	33-R			92-R
+------------------	-------------------
+23		40	54		123
+			----------
+				67-R
